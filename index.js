@@ -4,7 +4,7 @@ let a='hello';
 //returns length of the string
 //output :5
 console.log(a.length)
-let b='ramesh';
+let b='ramesh'; 
 let res=a.concat(b)
 //returns concat of the string 
 //output:helloramesh
