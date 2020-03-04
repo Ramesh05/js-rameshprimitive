@@ -1,4 +1,5 @@
 //object strng number boolean //
+//STRINGS METHODS//
 let a='hello';
 //returns length of the string
 //output :5
@@ -67,4 +68,86 @@ let z = "       Hello World!        ";
 //returns the trim(remove the white space of the string) of the string 
 //output:Hello world! 
 console.log(z.trim())
+
+
+//---------------------------------------------------------------------//
+
+//NUMBERS METHODS//
+
+let a2=34.67809;
+let n = a2.toFixed(2);
+//returns to fixed of the NUMBERS
+//output:34.68
+console.log(n)
+
+let a2=34.67809;
+let n1 = a2.toExponential();
+//returns to toExponential of the numbers 
+//output:3.467809e+1
+console.log(n1)
+
+let a = 150;
+let b2=a.toString();           
+let b3=(150).toString();       
+let b4=(100+50).toString();
+
+
+console.log(a)
+console.log(b2)
+console.log(b3)
+console.log(b4)
+
+//global methods//
+//used for testing purpose
+console.log(n1)
+
+//method writes a warn to console
+console.warn(2)
+
+//method writes a error message to console
+console.error("error");
+
+//used to The first parameter is required, and must be either an object, or an array, containing data to fill the table.
+console.table(["Audi", "Volvo", "Ford"]);
+//method writes a msg to console 
+console.info("helloeee")
+//
+//alert box specified box with ok button
+//alert("Hello! I am an alert box!!");
+//A confirm box is often used if you want the user to verify or accept something.
+//confirm("Press a button!");
+
+//A prompt box is often used if you want the user to input a value before entering a page.
+//function myFunction(){
+//let person= prompt("Please enter your name", "ramesh");
+
+//if (person != null) {
+  //document.getElementById("demo").innerHTML =
+  //"Hello " + person + "! How are you today?";
+//}
+//}
+//isnan() if value is number it say false if it is not is say true
+function myFunction(){
+let a="";        
+number=number+Number.isNaN('Hello')
+}//true
+//parse the string and written a whole number 
+let x1=parseInt("10");         // returns 10
+let x2=parseInt("10.33");      // returns 10
+let x3=parseInt("10 20 30");   // returns 10
+let x4=parseInt("10 years");   // returns 10
+console.log(x4)  
+
+//parse the string and written a Number
+let c1=parseFloat("10");        // returns 10
+let c2=parseFloat("10.33");     // returns 10.33
+let c3=parseFloat("10 20 30");  // returns 10
+let c4=parseFloat("10 years");  // returns 10
+let c5=parseFloat("years 10");  // returns NaN
+console.log(c2)
+
+
+
+
+
 
